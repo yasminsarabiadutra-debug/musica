@@ -1,8 +1,35 @@
 body {
-    background-color: #f002dd;
+    background-color: #121212;
+    text-align: center;
 }
 
 h1 {
-    color: #960d0d;
+    color: #f002dd;
     font-size: 75px;
+    font-family: Arial, sans-serif;
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #f002dd;
+    border-radius: 15px;
+}
+
+.botao {
+    background-color: #f002dd;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #ff52f3;
+    box-shadow: 0 0 15px #f002dd;
 }
